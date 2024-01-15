@@ -1,0 +1,31 @@
+.checked::marker {
+    content: "✅";
+}
+
+ul li::marker {
+    content: "⏳";
+}
+
+p::first-line {
+    background: #4eb2d6;
+}
+
+p::selection {
+    background: #51bf51;
+}
+
+p::first-letter {
+    background: red;
+}
+
+
+body::-webkit-scrollbar {
+    width: 30px;
+    background: rgb(16, 145, 230);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 25px;
+}
+
